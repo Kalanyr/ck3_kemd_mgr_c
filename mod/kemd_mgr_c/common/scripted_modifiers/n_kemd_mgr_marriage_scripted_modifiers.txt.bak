@@ -1082,8 +1082,9 @@
 			is_married = yes 
 		}
 		AND = {
-			scope:secondary_recipient.culture = { NOT = { has_cultural_tradition = tradition_polygamous } }
-			scope:secondary_recipient.faith = { NOT = { has_doctrine = doctrine_polygamy } }
+			scope:secondary_recipient = {
+				accepts_polygamy = no
+			}
 		}
 	}
 

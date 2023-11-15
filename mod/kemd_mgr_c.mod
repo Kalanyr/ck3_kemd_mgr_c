@@ -5,5 +5,5 @@ tags={
 }
 name="EMD + MGR Compatch"
 picture="thumbnail.png"
-supported_version="1.10.*"
+supported_version="1.11.*"
 path="mod/kemd_mgr_c"
